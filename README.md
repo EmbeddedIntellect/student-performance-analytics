@@ -1,28 +1,27 @@
 # Student Performance Analytics System
 
 ## Project Overview
-A Python-based project that analyzes student academic performance
-using Pandas and NumPy.
+A Python-based project that analyzes student academic performance using Pandas and NumPy.
 
 ## Features
-- Student dataset with marks and attendance
+- Dataset containing 500 student records
 - Total and average marks calculation
-- Grade assignment using defined rules
+- Grade assignment using defined grading rules
 - Pass/fail classification
 - Overall class performance analysis
 - Subject-wise performance analysis
 - Top 10 student ranking
-- Charts and CSV reports
+- CSV reports for analysis results
 
 ## Technologies Used
 - Python
 - NumPy
 - Pandas
-- Matplotlib
+- Google Colab
+- GitHub
 
 ## Dataset
-The dataset contains 500 student records, including student ID,
-name, department, five subject marks, and attendance.
+The dataset contains 500 student records, including student ID, name, department, five subject marks, and attendance.
 
 ## Grading Rules
 - 90 and above: A+
@@ -36,5 +35,16 @@ name, department, five subject marks, and attendance.
 A student passes if they score at least 40 marks in every subject.
 
 ## How to Run
-Open the project notebook in Google Colab and run the cells
-in order, starting from the imports and dataset setup.
+1. Open the project repository on GitHub.
+2. Download `Student_Performance_Analytics.zip` and extract it, or download the required project files.
+3. Upload `main.py` and `students.csv` to the same folder in Google Colab.
+4. Run the following command in a Colab code cell:
+
+```python
+!python main.py
+```
+
+5. Check the output and generated CSV reports.
+
+## Project Documentation
+See `Project_Documentation.md` for the project objective, implementation details, and learning outcomes.
